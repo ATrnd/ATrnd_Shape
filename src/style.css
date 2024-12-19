@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'turnpikeregular';
+    src: url('./turnpike-webfont.woff2') format('woff2'),
+         url('./turnpike-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aux_monoregular';
+    src: url('auxmono-regular-webfont.woff2') format('woff2'),
+         url('auxmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.turnpike-regular {
+    font-family: 'turnpikeregular', monospace;
+}
+
+.aux-mono-regular {
+    font-family: 'aux_monoregular', monospace;
+}
+
+
+
+
+
