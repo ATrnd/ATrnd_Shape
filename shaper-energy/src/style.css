@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+    body { background-color: #000; }
+    .s1-bg { background-image: url('assets/shaper-bg-01.jpg'); }
+    .s2-bg { background-image: url('assets/shaper-bg-02-0.1.jpg'); }
+    .s3-bg { background-image: url('assets/shaper-bg-03-0.1.jpg'); }
+    .s4-bg { background-image: url('assets/shaper-bg-04-0.2.jpg'); }
+
+@media (min-width: 1536px) {
+    .s2-bg { background-image: none; }
+}
+
+@font-face {
+    font-family: 'orbitronmedium';
+    src: url('fonts/orbitron-medium-webfont.woff2') format('woff2'), url('fonts/orbitron-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.orbitron {
+    font-family: 'orbitronmedium', monospace;
+}
